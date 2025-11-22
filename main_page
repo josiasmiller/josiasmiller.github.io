@@ -1,1 +1,25 @@
 <h1> Welcome to my software page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Header Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="full-page-header">
+        <h1>Welcome to My Website</h1>
+        <p>This header covers the entire screen on load.</p>
+        <a href="#content-section" class="cta-button">View Content Below</a>
+    </header>
+
+    <main id="content-section">
+        <h2>Main Content Section</h2>
+        <p>You can add the rest of your page content here.</p>
+        <!-- Add more content to enable scrolling -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
+</body>
+</html>
